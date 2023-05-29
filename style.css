@@ -15,7 +15,7 @@
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: rgb(0, 174, 255);
 }
 
 html{
@@ -67,7 +67,7 @@ body {
 
 .navbar a:hover,
 .navbar a:active {
-    color: #0ef;
+    color: var(--main-color);
 }
 
 .home {
@@ -104,7 +104,7 @@ span {
 }
 
 .home-content h3 span {
-    color: aqua;
+    color: var(--main-color);
 }
 
 .home-content h1 {
@@ -127,27 +127,27 @@ span {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid#0ef;
+    border: 2px solid var(--main-color);
     border-radius: 50%;
     font-size: 20px;
-    color: aqua;
+    color: var(--main-color);
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
 }
 
 .social-media a:hover {
-    background: #0ef;
+    background: var(--main-color);
     color: #1f242d;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px var(--main-color);
 }
 
 .btn {
     display: inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: var(--main-color);
     border-radius: 40px;
-    box-shadow: 0 0 10px #0ef;
+    box-shadow: 0 0 10px var(--main-color);
     font-size: 15px;
     color: #1f242d;
     letter-spacing: 1px;
@@ -209,7 +209,7 @@ span {
 }
 
 .skills-container .skills-box:hover {
-    border-color: #0ef;
+    border-color: var(--main-color);
     transform: scale(1.02);
 }
 
